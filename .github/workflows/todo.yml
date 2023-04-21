@@ -3,6 +3,10 @@ name: Create issues from todos
 on:
   workflow_dispatch
 
+permissions:
+  issues: write
+  repository-projects: write
+
 jobs:
   todos:
     runs-on: ubuntu-latest
