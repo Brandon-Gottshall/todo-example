@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   todos:
-    runs-on: [self-hosted, ubuntu-latest]
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v1
         env:
